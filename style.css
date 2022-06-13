@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,400&family=Work+Sans:wght@200&display=swap');
+*{ margin: 0 auto;}
+.logo {
+    width: 268px;
+    height: auto;
+}
+.drop-menu {
+    display: none;
+    position: absolute;
+}
+.menu {
+    display: flex;
+    width: 252px;
+    justify-content: center;
+    align-items: center ;
+    height:100%;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 30px;
+    color: #ababab;
+
+}
+nav {
+    height: 100%;
+    width: 252px;
+}
+header {
+    display: flex ;
+    background-color: white;
+    justify-content: space-around;
+    align-content: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top:0;
+}
+li {
+    list-style: none;
+}
+.menu-item:hover {
+   color: #00b39b;
+}
+.menu-item:hover .drop-menu {
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.281);
+   width: 220px;
+   height: 220px;
+   margin-left: -170px;
+}
+.drop-menu-iteam {
+   color: #ababab;
+   width: 220px;
+   height: 100%;
+   margin-left: -40px;
+   padding: 0px 20px;
+}
+.drop-menu-iteam:hover {
+    background-color: #ababab42;
+    color: #00b39b;
+}
+#logo2 {
+    width: 50px;
+    height: auto;
+    display: flex;
+    margin-top: 100px;
+}
+h1 {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 34px;
+    font-weight: 300;
+    color: #00b39b;
+    height: 44px;
+    margin: 20px;
+}
+#paragraphs {
+    display: flex;
+    width: 75%;
+    margin: 10px;
+}
+#paragraphs p {
+    width: 477px;
+    height: 112px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #747474;
+}
+
+#block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.blockb3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+#logo s {
+    height: 24px;
+  width: 24px;
+  margin-top: 25px;
+  color: #747474 ;
+}
+#blocks1 h3 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255);
+  }
+  #blocks1 p {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    margin: 15% 15%;
+  }
+  .Select3 {
+    background: transparent;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 40%;
+  }
+  
+  .Select3 option {
+    color: #2c3743;
+  }
+  #blocks1 {
+    background-color: #0cceb5;
+    border: 30px #00c3a5;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    width: 345px;
+    height: 311px;
+    margin: 25px;
+    
+  }
+  
+  #blocks2 {
+    background-color: #508fe2;
+    border: 30px #508fe2;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    width: 345px;
+    height: 311px;
+    margin: 25px;
+  }
+  
+  #blocks3 {
+    background-color: #2c3743;
+    border: 30px #2c3743;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    width: 345px;
+    height: 311px;
+    margin: 25px;
+  }
+  #blocks2 h3 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255);
+  }
+#blocks2 p {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    margin: 15% 15%;
+  }
+  #blocks3 h3 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255);
+  }
+  #blocks3 p {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    margin: 15% 15%;
+  }
+  .sponsors {
+    display: flex;
+    color: #00c3a5;
+    margin-top: 30px; 
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-family: "Work Sans", Arial, sans-serif;
+  }
+  #weareGC {
+    width: 15%;
+    padding: 2% 8%;
+}
+  .sponlogo {
+    font-family:"Roboto", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 33.8px;
+    color: rgb(0, 179, 155);
+    justify-content: space-between;
+    width: 60%;
+  }
+  .sponlogo > a > img {
+    filter: grayscale(100%);
+    height: 30px;
+    width: 150px;
+    margin: 10px;
+  }
+  .sponlogo > a > svg {
+    height: 30px;
+    width: 150px;
+    margin: 10px;
+  fill: grey;}
+  .sponlogo > a > img:hover {
+    filter: grayscale(0%);
+  }
+  .sponlogo > a > svg:hover {
+    fill: #00c3a5;}    
